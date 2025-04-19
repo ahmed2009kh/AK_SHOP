@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+font-family:"poppins",serif;
+}
+body{
+background-color:#222831;
+}
+header{
+display:flex;
+justify-content:space-between ;
+align-items:center;
+margin:2rem auto;
+padding:0.5rem;
+max-width:1200px;
+ }
+.navigation ul{
+display:flex;
+list-style-type:none;
+gap:2rem;
+}
+.navigation a{
+text-decoration:none;
+color:#eeeeee;
+}
+.navigation a:hover{
+
+color:#800080;
+}
+hr{
+opacity:10%;
+}
+.hero{	
+display:flex;
+flex-direction:columns;
+justify-content:space-between
+align-items:center;
+margin:0rem;
+max-width:1200px;
+}
+.herosub{
+flex-direction:column;
+gap:1rem;
+padding:1rem;
+}
+.welcom{
+font-size:2rem;
+color: #eeeeee;
+}
+.AKSHOP{
+font-size:4rem;
+color: #800080;
+}
+.herobtms{
+justify-content:space-between;
+align-items:center;
+margin: auto;
+}
+.buy{ 
+background-color:#800080;
+color:#eeeeee;
+border-radius:25px;
+margin:1.5rem;
+text-decoration:none;
+padding:0.5rem 1.5rem;
+text-shadow:0px 4px 4px rgba(0,0,0,0.5);
+
+}
+.view{
+background-color:#800080;
+color:#eeeeee;
+border-radius:25px;
+margin:1.5rem;
+text-decoration:none;
+padding:0.5rem 1.5rem;
+text-shadow:0px 4px 4px rgba(0,0,0,0.5);
+}
+.shop{
+
+display:flex;
+padding:0.5rem;
+gap:10rem;
+}
+.offerst{
+font-size:3rem;
+color:#800080;
+}
+
+.contactplace{
+display:flex;
+align-items:center;
+justify-content:space-around;}
+
+.contacttitle{ 
+display: flex;
+align-items: center;
+ justify-content: space-around;
+gap: 5px;
+margin-bottom: 1rem;
+ font-size: 1rem;
+}
+
+
+.number{color="#eeeeee"
+
+}
+.aboutName{
+color:#eeeeee;
+}
+.aboutTitle{
+color:#800080;
+}
+.numberplace{
+display:flex;
+align-items:center;
+justify-content:space-around;}
+.wats{ 
+display: flex;
+align-items: center;
+ justify-content: space-around;
+gap: 5px;
+margin-bottom: 1rem;
+ font-size: 1rem;
+}
+.wats{ 
+background-color:#800080;
+color:#eeeeee;
+border-radius:25px;
+margin:0.7rem;
+text-decoration:none;
+padding:0.2rem 1rem;
+text-shadow:0px 4px 4px rgba(0,0,0,0.5);
+
+}
+
